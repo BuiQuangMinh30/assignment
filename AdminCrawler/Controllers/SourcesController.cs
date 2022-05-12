@@ -319,6 +319,7 @@ namespace AdminCrawler.Controllers
                     var imageNode = doc.QuerySelector(sourceCheck.SelectorImage)?.Attributes["data-src"].Value;
                     var content = doc.QuerySelector(sourceCheck.SelectorContent)?.InnerText;
                     //var category = doc.QuerySelector(sourceCheck.CategoryId)?.InnerText ?? "";
+                    //var category = doc.QuerySelector(sourceCheck.CategoryId)?.InnerText ?? "";
                     string thumbnail = "";
                     if (imageNode != null)
                     {
